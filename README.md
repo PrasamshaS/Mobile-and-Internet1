@@ -62,9 +62,7 @@ Prasamsha Sharma
 </html>
  body {
      background-color: white;
-     background-size: cover;
-     height: 100vh;
-     background-position: center;
+    
 
 
 
