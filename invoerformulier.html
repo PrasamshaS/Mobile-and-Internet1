@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <meta charset="utf-8">
+
+    <style>
+        body{
+            background-color: lightgreen;
+            margin: 15px;
+            text-align: justify;
+          
+           
+            
+            font-size: 20px;
+           
+        }
+        h1{
+            color: blueviolet;
+            text-align: justify;
+            font-size: 50px;
+        }
+        #subjects{
+            font-size: 15px;
+             border: 2px solid blue;
+        }
+        #firstname, #lastname, #email-address{
+            border: 2px solid blue;
+          margin-bottom: 10px;
+           
+            
+           
+           
+           
+        }
+      
+            
+            
+            
+            
+        
+        
+        #comment{
+             border: 2px solid blue;
+        }
+        #submit{
+             border: 2px solid blue;
+            font-size: 20px;
+        }
+        input[type="date"]{
+             border: 2px solid blue;
+        }
+          
+        
+       
+        
+        
+       
+    
+    
+    </style>
+</head>
+
+
+
+
+<body>
+    <h1>Form</h1>
+    <form action="mailto:prasamsha.sharma@student.odisee.be" method="post">
+
+        <br>
+      
+        <input type="text" name="firstname" id="firstname" placeholder="FirstName" required>
+        <br>
+       
+        <input type="text" name="lastname" id="lastname" placeholder="LastName" required><br>
+       
+        <input type="text" name="email-address" id="email-address" placeholder="Email" required>
+
+        <br>
+
+        <input type="radio" name="gender" value="male" checked required> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other">Other<br>
+        Date Of Birth<br>
+        <input type="date" name="birthday" value="1998-02-15"><br>
+        Favourite Subjects <br>
+
+        <select id="subjects" multiple>
+            <option value="Application Development1">Application Development1</option>
+            <option value="System Management1">System Management1</option>
+            <option value="Network Management1">Network Management1</option>
+            <option value="Database Development1">Database Development1</option>
+            <option value="Communicatie Training1">Communicatie Training1</option>
+            <option value="Mobile And Internet1">Mobile And Internet1</option>
+            <option value="Software Engineering1">Software Engineering1</option>
+            <option value="Information Management1">Information Management1</option>
+            <option value="Communicatie Training2">Communicatie Training2</option>
+            <option value="ICT Business And Trends">ICT Business And Trends</option>
+
+
+
+
+
+
+
+
+
+
+        </select>
+        <br>
+
+        Mobile And Internet/Points
+        <input type="range" name="points"  min="10" max="20">
+        <br>
+        Favourite DAYS OF THE WEEK
+        <br>
+        <input type="radio" name="weeks" value="SUNDAY" checked> SUNDAY<br>
+        <input type="radio" name="weeks" value="MONDAY"> MONDAY<br>
+        <input type="radio" name="weeks" value="TUESDAY">TUESDAY<br>
+        <input type="radio" name="weeks" value="WEDNESDAY">WEDNESDAY<br>
+        <input type="radio" name="weeks" value="THURSDAY">THURSDAY<br>
+        <input type="radio" name="weeks" value="FRIDAY">FRIDAY<br>
+        <input type="radio" name="weeks" value="SATURDAY">SATURDAY<br>
+        Comment: <br>
+
+        <textarea name="comment" id="comment"></textarea><br>
+
+
+
+
+
+
+
+
+
+
+        <label for="submit"></label>
+
+        <input type="Submit" id="submit">
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
