@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name= "viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+           
+
+            float: left;
+
+
+            font-size: 14px;
+            font-family: sans-serif;
+            color: snow;
+            line-height: 100px;
+            padding: 0 20px;
+
+        }
+
+        ul li a:hover {
+            color: red;
+          
+
+
+        }
+
+
+
+        nav {
+            height: 100px;
+            width: 100%;
+
+
+            background-color: black;
+
+
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+        
+        div {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            position: relative;
+            transition: width 2s;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay: 2s;
+             animation-iteration-count: infinite;
+             transform: rotate(15deg);
+            
+           
+           
+        }
+       div:hover {
+          width: 400px;
+} 
+        @keyframes example {
+  0%   {background-color:red; left:0; top:0px;}
+  25%  {background-color:yellow; right:300px; top:0px;}
+  50%  {background-color:blue; right:400px; bottom:400px;}
+  75%  {background-color:green; left:300px; top:300px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+        
+      #div2{
+           animation-direction: alternate;
+          transform: skewX(20deg);
+            
+          
+            
+        }
+        
+        p{
+            color: palevioletred;
+            font-size: 20px;
+           
+           
+         
+        }
+      
+
+
+
+
+
+    </style>
+    <title>Souvenirs</title>
+
+</head>
+
+
+<body>
+
+    <h1>Souvenirs</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home </a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Beers</a></li>
+            <li><a href="#">Souvenirs</a></li>
+            <li><a href="#">MugsAndGlasswares</a></li>
+            <li><a href="#">Beers</a></li>
+            <li><a href="#">Bags</a></li>
+
+
+
+
+
+
+
+
+        </ul>
+    </nav>
+    
+    <p>Here is the square:</p><br>
+   <div id="div1"></div><br>
+<div id="div2"></div><br>
+    
+    
+</body>
+
+
+
+
+
+
+
+
+
+</html>
